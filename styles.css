@@ -29,6 +29,7 @@ ul {
 
 }
 
+
 /* HEADER */
 .header {
     background-color: #1f2937;
@@ -127,7 +128,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 64px;
+    padding-top: 64px 0 64px 0;
 }
 
 .figure__title {
@@ -165,7 +166,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 72px;
+    padding: 72px 0 72px 0;
 }
 
 .quote__text {
@@ -173,7 +174,7 @@ ul {
     font-style: italic;
     color: #1f2937;
     font-weight: lighter;
-    width: 60%;
+    width: 50%;
 }
 
 .quote__name {
@@ -186,7 +187,7 @@ ul {
     background-color: #3882f8;
     padding: 32px;
     margin: 64px auto;
-    width: 60%;
+    width: 50%;
     border-radius: 16px;
 
     display: flex;
